@@ -1,0 +1,17 @@
+{
+  "name": "kaiser-cipher",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "~16.2.0",
+    "yarn": "1.22.10"
+  },
+  "scripts": {
+    "test": "yarn jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.5",
+    "eslint": "7.29.0"
+  }
+}
