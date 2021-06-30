@@ -1,11 +1,23 @@
 {
   "name": "kaiser-cipher",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "description": "A simpe ceasar cipher to playfully pass _secret_ messages between friends.",
+  "homepage": "https://github.com/jron82/kaiser-cipher/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jron82/kaiser-cipher"
+  },
+  "keywords": [
+    "ceaser",
+    "cipher"
+  ],
   "engines": {
     "node": "~16.2.0",
     "yarn": "1.22.10"
   },
+  "main": "./src/cipher.js",
   "scripts": {
     "test": "yarn jest"
   },

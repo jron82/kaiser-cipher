@@ -50,6 +50,14 @@ test('encrypt more complex returns correct cipher text', () => {
   expect(val).toBe('ZAB')
 })
 
+test('encrypt more punctuation returns correct cipher text', () => {
+  const plain = 'X Y Z'
+  const key = 2
+  const val = encrypt(plain, key)
+
+  expect(val).toBe('Z A B')
+})
+
 test('decrypt returns correct plain text', () => {
   const cipher = 'CDE'
   const key = 2
