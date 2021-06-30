@@ -1,6 +1,6 @@
 {
   "name": "kaiser-cipher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "license": "MIT",
   "description": "A simpe ceasar cipher to playfully pass _secret_ messages between friends.",
