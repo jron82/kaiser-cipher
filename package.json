@@ -14,8 +14,8 @@
     "cipher"
   ],
   "engines": {
-    "node": "~16.2.0",
-    "yarn": "1.22.10"
+    "node": "~16.4.0",
+    "npm": "~7.18.1"
   },
   "main": "./src/cipher.js",
   "scripts": {
